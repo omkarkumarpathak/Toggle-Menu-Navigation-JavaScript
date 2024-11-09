@@ -1,0 +1,50 @@
+
+.menu{
+    position: relative;
+    top: 20%;
+    left: 30%;
+    margin-top: 100px;
+    background-color: rgb(234, 190, 190);
+    width: 35%;
+    height: 50vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.menu .menubar{
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    right: -300px;
+    top: 25%;
+    transition: 1s all ;
+}
+
+.menubar.active{
+    width: 40%;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 25%;
+    cursor: pointer;
+}
+.menubar span{
+    position: absolute;
+    top: 0;
+    left: 5px;
+    padding: 8px;
+    background-color: rgb(189, 137, 137);
+    border-radius: 50%;
+    font-size: 10px;
+}
+.menu .menubar ul li {
+    margin-right: 50px;
+    padding: 10px;
+    list-style: none;
+}
+
+#clickme {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange;
+}
